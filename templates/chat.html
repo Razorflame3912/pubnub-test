@@ -6,14 +6,14 @@
     <body>
       <h1 id="{{ room }}">PubNub-Chat: {{ room }}</h1>
         <textarea id="chat" cols="80" rows="20"></textarea><br><br>
-        <input id="text" size="80" placeholder="Enter your message here"><br><br>
+        <input class="{{ name }}" id="text" size="80" placeholder="Enter your message here"><br><br>
         <a href="/">Leave this room</a>
 
 
 	
       <script type="text/javascript" src="https://cdn.pubnub.com/sdk/javascript/pubnub.4.20.3.js"></script>
       <script type="text/javascript" src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-      <script type="text/javascript" src="/static/js/chat.js">
+      <script type="text/javascript" src="/static/js/chat.js"></script>
         
     </body>
 </html>

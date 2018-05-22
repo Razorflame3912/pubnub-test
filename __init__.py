@@ -20,7 +20,7 @@ def about():
     room = request.form['room']
     #session['name'] = name
     #session['room'] = room
-    return render_template('chat.html', room=room)
+    return render_template('chat.html', room=room, name=name)
     
 
 
